@@ -15,6 +15,8 @@ a {
     text-decoration: none;
 }
 
+
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -55,31 +57,35 @@ a {
     color: #404bbf;
 }
 
-.box {
-    background-color: #2e2f42;
-    }
 
-.title-box {
-    font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #fff;
+
+.box {
+    background: #2e2f42;
 }
 
-.type-button {
-    border-radius: 4px;
-        padding: 16px 32px;
-        width: 169px;
-        height: 56px;
-        background: #4d5ae5;
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 1.5;
-            letter-spacing: 0.04em;
-            color: #fff;.
-            box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-            border-radius: 4px;
-            }
+.title-box {
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.button-box {
+    background: #4d5ae5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-box:hover,
+.button-box:focus {
+    background-color: #404bbf;
+}
+
+
+
