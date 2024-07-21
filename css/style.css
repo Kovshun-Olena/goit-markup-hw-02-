@@ -27,7 +27,8 @@ a {
     letter-spacing: 0.03em;
 }
 
-.header-logo  .logo-part {
+.header-logo .logo-part,
+.footer-logo .logo-part {
     color: #2e2f42;
 }
 
@@ -130,4 +131,6 @@ a {
 }
 
 
-
+.page-footer {
+    background-color: #2e2f42;
+}
